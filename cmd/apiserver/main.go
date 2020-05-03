@@ -32,3 +32,8 @@ func main() {
 		log.Fatal(err)
 	}
 }
+
+
+
+//migrate create -ext sql -dir migrations create_users
+//migrate -path migrations -database "postgres://localhost/restapi_dev?sslmode=disable" up
